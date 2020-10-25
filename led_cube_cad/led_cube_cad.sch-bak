@@ -1,0 +1,119 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC636 Q?
+U 1 1 5F8D5860
+P 5200 1450
+F 0 "Q?" H 5391 1404 50  0000 L CNN
+F 1 "BC636" H 5391 1495 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 1375 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H 5200 1450 50  0001 L CNN
+	1    5200 1450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8E58F5
+P 4150 1700
+F 0 "R?" V 4357 1700 50  0001 C CNN
+F 1 "50k" V 4265 1700 50  0000 C CNN
+F 2 "" V 4080 1700 50  0001 C CNN
+F 3 "~" H 4150 1700 50  0001 C CNN
+	1    4150 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8E5E60
+P 4150 1950
+F 0 "R?" V 4357 1950 50  0001 C CNN
+F 1 "50k" V 4265 1950 50  0000 C CNN
+F 2 "" V 4080 1950 50  0001 C CNN
+F 3 "~" H 4150 1950 50  0001 C CNN
+	1    4150 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8E6BB8
+P 4150 2200
+F 0 "R?" V 4357 2200 50  0001 C CNN
+F 1 "50k" V 4265 2200 50  0000 C CNN
+F 2 "" V 4080 2200 50  0001 C CNN
+F 3 "~" H 4150 2200 50  0001 C CNN
+	1    4150 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8E6EBD
+P 4150 2450
+F 0 "R?" V 4357 2450 50  0001 C CNN
+F 1 "50k" V 4265 2450 50  0000 C CNN
+F 2 "" V 4080 2450 50  0001 C CNN
+F 3 "~" H 4150 2450 50  0001 C CNN
+	1    4150 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8E776F
+P 4150 1450
+F 0 "R?" V 4357 1450 50  0001 C CNN
+F 1 "50k" V 4265 1450 50  0000 C CNN
+F 2 "" V 4080 1450 50  0001 C CNN
+F 3 "~" H 4150 1450 50  0001 C CNN
+	1    4150 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4xxx_IEEE:4099 U?
+U 1 1 5F8D1A89
+P 3000 1750
+F 0 "U?" H 3000 1028 50  0000 C CNN
+F 1 "4099" H 3000 937 50  0000 C CNN
+F 2 "" H 3000 1750 50  0001 C CNN
+F 3 "" H 3000 1750 50  0001 C CNN
+	1    3000 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1450 3550 1750
+Wire Wire Line
+	3550 1750 3500 1750
+Wire Wire Line
+	3650 1700 3650 1850
+Wire Wire Line
+	3650 1850 3500 1850
+Wire Wire Line
+	3550 1450 4000 1450
+Wire Wire Line
+	3650 1700 4000 1700
+Wire Wire Line
+	3500 1950 4000 1950
+Wire Wire Line
+	3500 2050 3650 2050
+Wire Wire Line
+	3650 2050 3650 2200
+Wire Wire Line
+	3650 2200 4000 2200
+Wire Wire Line
+	3500 2150 3550 2150
+Wire Wire Line
+	3550 2150 3550 2450
+Wire Wire Line
+	3550 2450 4000 2450
+$EndSCHEMATC

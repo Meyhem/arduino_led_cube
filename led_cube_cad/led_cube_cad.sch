@@ -1,0 +1,303 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC636 Q?
+U 1 1 5F8D5860
+P 5000 2350
+F 0 "Q?" H 5191 2304 50  0000 L CNN
+F 1 "BC636" H 5191 2395 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5200 2275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H 5000 2350 50  0001 L CNN
+	1    5000 2350
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8E58F5
+P 4500 3100
+F 0 "R?" V 4707 3100 50  0001 C CNN
+F 1 "10k" V 4615 3100 50  0000 C CNN
+F 2 "" V 4430 3100 50  0001 C CNN
+F 3 "~" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8E5E60
+P 4500 3350
+F 0 "R?" V 4707 3350 50  0001 C CNN
+F 1 "10k" V 4615 3350 50  0000 C CNN
+F 2 "" V 4430 3350 50  0001 C CNN
+F 3 "~" H 4500 3350 50  0001 C CNN
+	1    4500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8E6BB8
+P 4500 3600
+F 0 "R?" V 4707 3600 50  0001 C CNN
+F 1 "10k" V 4615 3600 50  0000 C CNN
+F 2 "" V 4430 3600 50  0001 C CNN
+F 3 "~" H 4500 3600 50  0001 C CNN
+	1    4500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8E6EBD
+P 4500 3850
+F 0 "R?" V 4707 3850 50  0001 C CNN
+F 1 "10k" V 4615 3850 50  0000 C CNN
+F 2 "" V 4430 3850 50  0001 C CNN
+F 3 "~" H 4500 3850 50  0001 C CNN
+	1    4500 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8E776F
+P 4500 2850
+F 0 "R?" V 4707 2850 50  0001 C CNN
+F 1 "10k" V 4615 2850 50  0000 C CNN
+F 2 "" V 4430 2850 50  0001 C CNN
+F 3 "~" H 4500 2850 50  0001 C CNN
+	1    4500 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4xxx_IEEE:4099 U?
+U 1 1 5F8D1A89
+P 3350 3150
+F 0 "U?" H 3350 2428 50  0000 C CNN
+F 1 "4099" H 3350 2337 50  0000 C CNN
+F 2 "" H 3350 3150 50  0001 C CNN
+F 3 "" H 3350 3150 50  0001 C CNN
+	1    3350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2850 3900 3150
+Wire Wire Line
+	3900 3150 3850 3150
+Wire Wire Line
+	4000 3100 4000 3250
+Wire Wire Line
+	4000 3250 3850 3250
+Wire Wire Line
+	3900 2850 4350 2850
+Wire Wire Line
+	4000 3100 4350 3100
+Wire Wire Line
+	3850 3350 4350 3350
+Wire Wire Line
+	3850 3450 4000 3450
+Wire Wire Line
+	4000 3450 4000 3600
+Wire Wire Line
+	4000 3600 4350 3600
+Wire Wire Line
+	3850 3550 3900 3550
+Wire Wire Line
+	3900 3550 3900 3850
+Wire Wire Line
+	3900 3850 4350 3850
+$Comp
+L power:+5V #PWR?
+U 1 1 5F8FE981
+P 5100 1950
+F 0 "#PWR?" H 5100 1800 50  0001 C CNN
+F 1 "+5V" H 5115 2123 50  0000 C CNN
+F 2 "" H 5100 1950 50  0001 C CNN
+F 3 "" H 5100 1950 50  0001 C CNN
+	1    5100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC636 Q?
+U 1 1 5F900432
+P 5000 2850
+F 0 "Q?" H 5191 2804 50  0000 L CNN
+F 1 "BC636" H 5191 2895 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5200 2775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H 5000 2850 50  0001 L CNN
+	1    5000 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC636 Q?
+U 1 1 5F902CC4
+P 5000 3350
+F 0 "Q?" H 5191 3304 50  0000 L CNN
+F 1 "BC636" H 5191 3395 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5200 3275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H 5000 3350 50  0001 L CNN
+	1    5000 3350
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC636 Q?
+U 1 1 5F909EFD
+P 5000 3850
+F 0 "Q?" H 5191 3804 50  0000 L CNN
+F 1 "BC636" H 5191 3895 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5200 3775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H 5000 3850 50  0001 L CNN
+	1    5000 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC636 Q?
+U 1 1 5F909F03
+P 5000 4350
+F 0 "Q?" H 5191 4304 50  0000 L CNN
+F 1 "BC636" H 5191 4395 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5200 4275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H 5000 4350 50  0001 L CNN
+	1    5000 4350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4650 2850 4650 2350
+Wire Wire Line
+	4650 2350 4800 2350
+Wire Wire Line
+	4650 3100 4750 3100
+Wire Wire Line
+	4750 3100 4750 2850
+Wire Wire Line
+	4750 2850 4800 2850
+Wire Wire Line
+	4650 3600 4750 3600
+Wire Wire Line
+	4750 3600 4750 3850
+Wire Wire Line
+	4750 3850 4800 3850
+Wire Wire Line
+	4650 3850 4650 4350
+Wire Wire Line
+	4650 4350 4800 4350
+Wire Wire Line
+	4650 3350 4800 3350
+$Comp
+L Device:R R?
+U 1 1 5F916C6B
+P 6350 3250
+F 0 "R?" V 6143 3250 50  0001 C CNN
+F 1 "~100R" V 6228 3250 50  0000 C CNN
+F 2 "" V 6280 3250 50  0001 C CNN
+F 3 "~" H 6350 3250 50  0001 C CNN
+	1    6350 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F917B65
+P 6350 3400
+F 0 "R?" V 6143 3400 50  0001 C CNN
+F 1 "~100R" V 6228 3400 50  0000 C CNN
+F 2 "" V 6280 3400 50  0001 C CNN
+F 3 "~" H 6350 3400 50  0001 C CNN
+	1    6350 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F91822D
+P 6350 3550
+F 0 "R?" V 6143 3550 50  0001 C CNN
+F 1 "~100R" V 6228 3550 50  0000 C CNN
+F 2 "" V 6280 3550 50  0001 C CNN
+F 3 "~" H 6350 3550 50  0001 C CNN
+	1    6350 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F918908
+P 6350 3700
+F 0 "R?" V 6143 3700 50  0001 C CNN
+F 1 "~100R" V 6228 3700 50  0000 C CNN
+F 2 "" V 6280 3700 50  0001 C CNN
+F 3 "~" H 6350 3700 50  0001 C CNN
+	1    6350 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9190AC
+P 6350 3850
+F 0 "R?" V 6143 3850 50  0001 C CNN
+F 1 "~100R" V 6228 3850 50  0000 C CNN
+F 2 "" V 6280 3850 50  0001 C CNN
+F 3 "~" H 6350 3850 50  0001 C CNN
+	1    6350 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2150 5100 2150
+Wire Wire Line
+	5100 1950 5000 1950
+Wire Wire Line
+	5000 1950 5000 2150
+Wire Wire Line
+	5000 2150 5000 2650
+Wire Wire Line
+	5000 2650 5100 2650
+Connection ~ 5000 2150
+Wire Wire Line
+	5000 2650 5000 3150
+Wire Wire Line
+	5000 3150 5100 3150
+Connection ~ 5000 2650
+Wire Wire Line
+	5000 3150 5000 3650
+Wire Wire Line
+	5000 3650 5100 3650
+Connection ~ 5000 3150
+Wire Wire Line
+	5000 3650 5000 4150
+Wire Wire Line
+	5000 4150 5100 4150
+Connection ~ 5000 3650
+Wire Wire Line
+	5100 3550 6200 3550
+Wire Wire Line
+	5100 2550 6000 2550
+Wire Wire Line
+	6000 2550 6000 3250
+Wire Wire Line
+	6000 3250 6200 3250
+Wire Wire Line
+	5100 3050 5850 3050
+Wire Wire Line
+	5850 3050 5850 3400
+Wire Wire Line
+	5850 3400 6200 3400
+Wire Wire Line
+	5100 4050 5850 4050
+Wire Wire Line
+	5850 4050 5850 3700
+Wire Wire Line
+	5850 3700 6200 3700
+Wire Wire Line
+	5100 4550 6000 4550
+Wire Wire Line
+	6000 4550 6000 3850
+Wire Wire Line
+	6000 3850 6200 3850
+$EndSCHEMATC
