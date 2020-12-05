@@ -133,7 +133,7 @@ void clear(Matrix m) {
   }
 }
 
-AnimationFunc animations[] = { edges, movingDot };
+AnimationFunc animations[] = { edges, cross_faces, faces, random_dots, icycles, ball};
 
 AnimationFunc getRandomAnimationFunc() {
   const int nfunc = SIZE(animations);
@@ -142,12 +142,12 @@ AnimationFunc getRandomAnimationFunc() {
 }
 
 void reset(AnimationEngine* e) {
-   e->currentFunc = getRandomAnimationFunc();
-   e->speed = random(4)+ 1;
-   e->duration = random(7000) + 3000;
-   e->timeBuffer = 0;
-   e->state = 0;
-   e->animationIterations = 0;
+  e->currentFunc = getRandomAnimationFunc();
+  e->speed = random(3)+ 1;
+  e->duration = random(7000) + 3000;
+  e->timeBuffer = 0;
+  e->state = 0;
+  e->animationIterations = 0;
 }
 
 void tick(AnimationEngine* e, uint32_t delta, Matrix m) {
@@ -156,29 +156,55 @@ void tick(AnimationEngine* e, uint32_t delta, Matrix m) {
   }
  
   e->timeBuffer += delta;
-
-  if (e->timeBuffer > e->duration && e->animationIterations > 0) {
+  int newIterations = e->currentFunc(m, e->state);
+  if (e->timeBuffer > e->duration && e->animationIterations != newIterations) {
     reset(e);
   }
   
-  bool finished = e->currentFunc(m, e->state);
-  e->state++;
-  Serial.println(e->speed);
-  if (finished) {
-    e->animationIterations++;
+  e->animationIterations = newIterations;
+  e->state++;  
+}
+
+int random_dots(Matrix m, int state) {
+  int growthBrake = 20;
+  int maxGrowth = 20;
+  int speedFactor = (eng.speed);
+  int scaledState = (state / growthBrake / speedFactor);
+  
+  clear(m);
+
+  for (int i = 0; i <= scaledState; i++) {
+    m[random(5)][random(5)][random(5)] = 1;  
   }
   
+
+  return scaledState / maxGrowth;
 }
 
-void movingDot(Matrix m, int state) {
-  clear(m);
-  m[state % DIM][0][0] = 1;
+int icyX = 0;
+int icyY = 0;
+bool randomizedThisRound = false;
+int icycles(Matrix m, int state) {
+  const int nstates = 5;
+  int speedFactor = eng.speed * 10;
+  int scaledState = (state / speedFactor) % nstates;
 
-  return state != 0 && state % DIM == 0;
+  if (scaledState == 0 && !randomizedThisRound) {
+    icyX = random(5);
+    icyY = random(5);
+    randomizedThisRound = true;
+  }
+  if (scaledState != 0) {
+    randomizedThisRound = false;
+  }
+ 
+  clear(m);
+  m[icyX][icyY][4 - scaledState] = 1;
+
+  return state / speedFactor / nstates;
 }
 
-void edges(Matrix m, int state) {
-  clear(m);
+int edges(Matrix m, int state) {
   for (int x = 0; x < DIM; x++) {
     for (int y = 0; y < DIM; y++) {
       for (int z = 0; z < DIM; z++) {
@@ -190,10 +216,86 @@ void edges(Matrix m, int state) {
       }
     }
   }
-  return true;
+  
+  return state;
 }
 
+int faces(Matrix m, int state) {
+  const int nstates = 27;
+  int speedFactor = (6 - eng.speed);
+  int scaledState = (state / speedFactor) % nstates;
+      
+  for (int x = 0; x < DIM; x++) {
+    for (int y = 0; y < DIM; y++) {
+      for (int z = 0; z < DIM; z++) {
+        int target;
+        if (scaledState < 9) {
+          target = z;
+        } else if (scaledState < 18) {
+          target = y;
+        } else if (scaledState < 27) {
+          target = x;
+        }
 
+        m[x][y][z] = target == floor(pyramid_period_func(scaledState, 4.0));
+      }
+    }
+  }
+
+  return state / speedFactor / nstates;
+}
+
+int cross_faces(Matrix m, int state) {
+  const int nstates = 9;
+  int speedFactor = (6 - eng.speed);
+  int scaledState = (state / speedFactor) % nstates;
+    
+  for (int x = 0; x < DIM; x++) {
+    for (int y = 0; y < DIM; y++) {
+      for (int z = 0; z < DIM; z++) {
+        int target;
+        if (scaledState < 5) {
+          target = (x + y) / 2;
+        } else if (scaledState < 10) {
+          target = (x + z) / 2;
+        } 
+
+        m[x][y][z] = target == floor(pyramid_period_func(scaledState, 4.0));
+      }
+    }
+  }
+  
+  
+  return state / speedFactor / nstates;
+}
+
+int ball(Matrix m, int state) {
+  const int nstates = 4;
+  const float mid = 5 / 2;
+  int speedFactor = eng.speed * 3;
+  int scaledState = (state / speedFactor) % nstates;
+  Serial.println(scaledState);
+  
+  for (int x = 0; x < DIM; x++) {
+    for (int y = 0; y < DIM; y++) {
+      for (int z = 0; z < DIM; z++) {
+        float distance = sqrt((mid - x)*(mid - x) + (mid - y)*(mid - y) + (mid - z)*(mid - z));
+        m[x][y][z] = distance <= scaledState;
+      }
+    }
+  }
+
+  return state / speedFactor / nstates;
+}
+
+float pyramid_period_func(float x, float slope) {
+  x = fmod(x, 2 * slope);
+  if (x < slope) {
+    return x;
+  } else {
+    return 2 * slope - x;
+  }
+}
 
 void loop() {
   uint32_t now = millis();
