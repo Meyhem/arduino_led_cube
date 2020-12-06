@@ -133,7 +133,7 @@ void clear(Matrix m) {
   }
 }
 
-AnimationFunc animations[] = { edges, cross_faces, faces, random_dots, icycles, ball};
+AnimationFunc animations[] = { edges/*, cross_faces, faces, random_dots, icycles, ball, rotating_plane, lazers*/};
 
 AnimationFunc getRandomAnimationFunc() {
   const int nfunc = SIZE(animations);
@@ -181,21 +181,70 @@ int random_dots(Matrix m, int state) {
   return scaledState / maxGrowth;
 }
 
+int lazerX = 0;
+int lazerY = 0;
+bool lazerRandomizedThisRound = false;
+int lazers(Matrix m, int state) {
+  const int nstates = 10;
+  int speedFactor = eng.speed;
+  int scaledState = state / speedFactor % nstates;
+
+  if (scaledState == 0 && !lazerRandomizedThisRound) {
+    lazerX = random(5);
+    lazerY = random(5);
+    lazerRandomizedThisRound = true;
+  }
+  if (scaledState != 0) {
+    lazerRandomizedThisRound = false;
+  }
+  
+  for (int x = 0; x < DIM; x++) {
+    for (int y = 0; y < DIM; y++) {
+      for (int z = 0; z < DIM; z++) {
+        m[x][y][z] = x == lazerX && y == lazerY;
+      }
+    }
+  }
+
+  return state / speedFactor / nstates;
+}
+
+int rotating_plane(Matrix m, int state) {
+  const int nstates = 3;
+  int speedFactor = eng.speed * 5;
+  int scaledState = state / speedFactor % nstates;
+  
+  for (int x = 0; x < DIM; x++) {
+    for (int y = 0; y < DIM; y++) {
+      for (int z = 0; z < DIM; z++) {
+        switch(scaledState) {
+          case 0: m[x][y][z] = x == y; break;
+          case 1: m[x][y][z] = x == z; break;
+          case 2: m[x][y][z] = z == y; break;
+        }
+        
+      }
+    }
+  }
+
+  return state / speedFactor / nstates;
+}
+
 int icyX = 0;
 int icyY = 0;
-bool randomizedThisRound = false;
+bool icyRandomizedThisRound = false;
 int icycles(Matrix m, int state) {
   const int nstates = 5;
   int speedFactor = eng.speed * 10;
   int scaledState = (state / speedFactor) % nstates;
 
-  if (scaledState == 0 && !randomizedThisRound) {
+  if (scaledState == 0 && !icyRandomizedThisRound) {
     icyX = random(5);
     icyY = random(5);
-    randomizedThisRound = true;
+    icyRandomizedThisRound = true;
   }
   if (scaledState != 0) {
-    randomizedThisRound = false;
+    icyRandomizedThisRound = false;
   }
  
   clear(m);
@@ -205,19 +254,22 @@ int icycles(Matrix m, int state) {
 }
 
 int edges(Matrix m, int state) {
+  int speedFactor = eng.speed * 3;
+  int scaledState = state / speedFactor % 2;
+  
   for (int x = 0; x < DIM; x++) {
     for (int y = 0; y < DIM; y++) {
       for (int z = 0; z < DIM; z++) {
-        m[x][y][z] = 
+        m[x][y][z] = scaledState && (
           (x % (DIM - 1) == 0) && (y % (DIM - 1) == 0) ||
           (y % (DIM - 1) == 0) && (z % (DIM - 1) == 0) ||
-          (z % (DIM - 1) == 0) && (x % (DIM - 1) == 0);
+          (z % (DIM - 1) == 0) && (x % (DIM - 1) == 0)); 
           
       }
     }
   }
   
-  return state;
+  return state / speedFactor / 2;
 }
 
 int faces(Matrix m, int state) {
