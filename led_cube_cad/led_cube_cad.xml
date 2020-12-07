@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\dev\led_cube\led_cube_cad\led_cube_cad.sch</source>
+    <date>12/7/2020 5:16:54 PM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>led_cube_cad.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B0Q0">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8D5860</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E58F5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E5E60</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E6BB8</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E6EBD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E776F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>4099</value>
+      <footprint>Package_DIP:DIP-16_W10.16mm</footprint>
+      <libsource lib="4xxx_IEEE" part="4099" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8D1A89</tstamp>
+    </comp>
+    <comp ref="B0Q1">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F900432</tstamp>
+    </comp>
+    <comp ref="B0Q2">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F902CC4</tstamp>
+    </comp>
+    <comp ref="B0Q3">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F909EFD</tstamp>
+    </comp>
+    <comp ref="B0Q4">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F909F03</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F916C6B</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F917B65</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F91822D</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F918908</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9190AC</tstamp>
+    </comp>
+    <comp ref="B1Q0">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE55B2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE55B8</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE55BE</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE55C4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE55CA</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE55D0</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>4099</value>
+      <footprint>Package_DIP:DIP-16_W10.16mm</footprint>
+      <libsource lib="4xxx_IEEE" part="4099" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE55D6</tstamp>
+    </comp>
+    <comp ref="B1Q1">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE55EF</tstamp>
+    </comp>
+    <comp ref="B1Q2">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE55F5</tstamp>
+    </comp>
+    <comp ref="B1Q3">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE55FB</tstamp>
+    </comp>
+    <comp ref="B1Q4">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE5601</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE5612</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE5618</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE561E</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE5624</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE562A</tstamp>
+    </comp>
+    <comp ref="B2Q0">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB294</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB29A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2A0</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2A6</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2AC</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2B2</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>4099</value>
+      <footprint>Package_DIP:DIP-16_W10.16mm</footprint>
+      <libsource lib="4xxx_IEEE" part="4099" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2B8</tstamp>
+    </comp>
+    <comp ref="B2Q1">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2D1</tstamp>
+    </comp>
+    <comp ref="B2Q2">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2D7</tstamp>
+    </comp>
+    <comp ref="B2Q3">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2DD</tstamp>
+    </comp>
+    <comp ref="B2Q4">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2E3</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2F4</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB2FA</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB300</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB306</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCEB30C</tstamp>
+    </comp>
+    <comp ref="B3Q0">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A49</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A4F</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A55</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A5B</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A61</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A67</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>4099</value>
+      <footprint>Package_DIP:DIP-16_W10.16mm</footprint>
+      <libsource lib="4xxx_IEEE" part="4099" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A6D</tstamp>
+    </comp>
+    <comp ref="B3Q1">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A86</tstamp>
+    </comp>
+    <comp ref="B3Q2">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A8C</tstamp>
+    </comp>
+    <comp ref="B3Q3">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A92</tstamp>
+    </comp>
+    <comp ref="B3Q4">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9A98</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9AA9</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9AAF</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9AB5</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9ABB</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF9AC1</tstamp>
+    </comp>
+    <comp ref="B4Q0">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DCF3</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DCF9</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DCFF</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD05</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD0B</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD11</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>4099</value>
+      <footprint>Package_DIP:DIP-16_W10.16mm</footprint>
+      <libsource lib="4xxx_IEEE" part="4099" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD17</tstamp>
+    </comp>
+    <comp ref="B4Q1">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD30</tstamp>
+    </comp>
+    <comp ref="B4Q2">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD36</tstamp>
+    </comp>
+    <comp ref="B4Q3">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD3C</tstamp>
+    </comp>
+    <comp ref="B4Q4">
+      <value>BC560</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC636.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC560" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD42</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD53</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD59</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD5F</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD65</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>~100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0DD6B</tstamp>
+    </comp>
+    <comp ref="CubeConnector1">
+      <value>Conn_02x20_Counter_Clockwise</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Counter_Clockwise" description="Generic connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601690BD</tstamp>
+    </comp>
+    <comp ref="NPN5">
+      <value>BC107</value>
+      <footprint>Package_TO_SOT_THT:TO-18-3</footprint>
+      <datasheet>http://www.b-kainka.de/Daten/Transistor/BC108.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC107" description="0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605772EE</tstamp>
+    </comp>
+    <comp ref="NPN4">
+      <value>BC107</value>
+      <footprint>Package_TO_SOT_THT:TO-18-3</footprint>
+      <datasheet>http://www.b-kainka.de/Daten/Transistor/BC108.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC107" description="0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6057AB6A</tstamp>
+    </comp>
+    <comp ref="NPN3">
+      <value>BC107</value>
+      <footprint>Package_TO_SOT_THT:TO-18-3</footprint>
+      <datasheet>http://www.b-kainka.de/Daten/Transistor/BC108.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC107" description="0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6059F127</tstamp>
+    </comp>
+    <comp ref="NPN2">
+      <value>BC107</value>
+      <footprint>Package_TO_SOT_THT:TO-18-3</footprint>
+      <datasheet>http://www.b-kainka.de/Daten/Transistor/BC108.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC107" description="0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605C37B6</tstamp>
+    </comp>
+    <comp ref="NPN1">
+      <value>BC107</value>
+      <footprint>Package_TO_SOT_THT:TO-18-3</footprint>
+      <datasheet>http://www.b-kainka.de/Daten/Transistor/BC108.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC107" description="0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E8016</tstamp>
+    </comp>
+    <comp ref="BoardControl1">
+      <value>Conn_01x20</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x20" description="Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61925630</tstamp>
+    </comp>
+    <comp ref="RL1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63783D11</tstamp>
+    </comp>
+    <comp ref="RL2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63783D17</tstamp>
+    </comp>
+    <comp ref="RL3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63783D1D</tstamp>
+    </comp>
+    <comp ref="RL4">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63783D23</tstamp>
+    </comp>
+    <comp ref="RL0">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63783D29</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx_IEEE" part="4099">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4099</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q7" type="output"/>
+        <pin num="2" name="R" type="input"/>
+        <pin num="3" name="D" type="input"/>
+        <pin num="4" name="WR" type="input"/>
+        <pin num="5" name="A0" type="input"/>
+        <pin num="6" name="A1" type="input"/>
+        <pin num="7" name="A2" type="input"/>
+        <pin num="8" name="Vss" type="power_in"/>
+        <pin num="9" name="Q0" type="output"/>
+        <pin num="10" name="Q1" type="output"/>
+        <pin num="11" name="Q2" type="output"/>
+        <pin num="12" name="Q3" type="output"/>
+        <pin num="13" name="Q4" type="output"/>
+        <pin num="14" name="Q5" type="output"/>
+        <pin num="16" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x20">
+      <description>Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Counter_Clockwise">
+      <description>Generic connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC107">
+      <aliases>
+        <alias>BC108</alias>
+        <alias>BC109</alias>
+      </aliases>
+      <description>0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18</description>
+      <docs>http://www.b-kainka.de/Daten/Transistor/BC108.pdf</docs>
+      <footprints>
+        <fp>TO?18*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC107</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-18-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC557">
+      <aliases>
+        <alias>BC556</alias>
+        <alias>BC558</alias>
+        <alias>BC559</alias>
+        <alias>BC560</alias>
+        <alias>BC327</alias>
+        <alias>BC328</alias>
+      </aliases>
+      <description>0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC557.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC557</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx_IEEE">
+      <uri>C:\Program Files\KiCad\share\kicad\library/4xxx_IEEE.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(CubeConnector1-Pad4)">
+      <node ref="CubeConnector1" pin="4"/>
+    </net>
+    <net code="2" name="Net-(CubeConnector1-Pad6)">
+      <node ref="CubeConnector1" pin="6"/>
+    </net>
+    <net code="3" name="Net-(CubeConnector1-Pad7)">
+      <node ref="R27" pin="1"/>
+      <node ref="CubeConnector1" pin="7"/>
+    </net>
+    <net code="4" name="Net-(CubeConnector1-Pad8)">
+      <node ref="CubeConnector1" pin="8"/>
+    </net>
+    <net code="5" name="Net-(CubeConnector1-Pad9)">
+      <node ref="R26" pin="1"/>
+      <node ref="CubeConnector1" pin="9"/>
+    </net>
+    <net code="6" name="Net-(CubeConnector1-Pad19)">
+      <node ref="R31" pin="1"/>
+      <node ref="CubeConnector1" pin="19"/>
+    </net>
+    <net code="7" name="Net-(CubeConnector1-Pad27)">
+      <node ref="CubeConnector1" pin="27"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="8" name="Net-(CubeConnector1-Pad2)">
+      <node ref="CubeConnector1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(CubeConnector1-Pad1)">
+      <node ref="CubeConnector1" pin="1"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="10" name="Net-(CubeConnector1-Pad10)">
+      <node ref="CubeConnector1" pin="10"/>
+    </net>
+    <net code="11" name="Net-(CubeConnector1-Pad11)">
+      <node ref="R35" pin="1"/>
+      <node ref="CubeConnector1" pin="11"/>
+    </net>
+    <net code="12" name="Net-(CubeConnector1-Pad12)">
+      <node ref="CubeConnector1" pin="12"/>
+    </net>
+    <net code="13" name="Net-(CubeConnector1-Pad13)">
+      <node ref="R34" pin="1"/>
+      <node ref="CubeConnector1" pin="13"/>
+    </net>
+    <net code="14" name="Net-(CubeConnector1-Pad14)">
+      <node ref="CubeConnector1" pin="14"/>
+    </net>
+    <net code="15" name="Net-(CubeConnector1-Pad15)">
+      <node ref="R33" pin="1"/>
+      <node ref="CubeConnector1" pin="15"/>
+    </net>
+    <net code="16" name="Net-(CubeConnector1-Pad16)">
+      <node ref="CubeConnector1" pin="16"/>
+    </net>
+    <net code="17" name="Net-(CubeConnector1-Pad17)">
+      <node ref="CubeConnector1" pin="17"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="18" name="Net-(CubeConnector1-Pad18)">
+      <node ref="CubeConnector1" pin="18"/>
+    </net>
+    <net code="19" name="Net-(CubeConnector1-Pad20)">
+      <node ref="CubeConnector1" pin="20"/>
+    </net>
+    <net code="20" name="Net-(CubeConnector1-Pad22)">
+      <node ref="NPN1" pin="3"/>
+      <node ref="CubeConnector1" pin="22"/>
+    </net>
+    <net code="21" name="Net-(CubeConnector1-Pad24)">
+      <node ref="CubeConnector1" pin="24"/>
+      <node ref="NPN2" pin="3"/>
+    </net>
+    <net code="22" name="Net-(CubeConnector1-Pad26)">
+      <node ref="NPN3" pin="3"/>
+      <node ref="CubeConnector1" pin="26"/>
+    </net>
+    <net code="23" name="Net-(CubeConnector1-Pad3)">
+      <node ref="R29" pin="1"/>
+      <node ref="CubeConnector1" pin="3"/>
+    </net>
+    <net code="24" name="Net-(CubeConnector1-Pad30)">
+      <node ref="NPN5" pin="3"/>
+      <node ref="CubeConnector1" pin="30"/>
+    </net>
+    <net code="25" name="Net-(BoardControl1-Pad10)">
+      <node ref="U3" pin="4"/>
+      <node ref="BoardControl1" pin="10"/>
+    </net>
+    <net code="26" name="Net-(BoardControl1-Pad8)">
+      <node ref="U1" pin="4"/>
+      <node ref="BoardControl1" pin="8"/>
+    </net>
+    <net code="27" name="Net-(BoardControl1-Pad9)">
+      <node ref="U2" pin="4"/>
+      <node ref="BoardControl1" pin="9"/>
+    </net>
+    <net code="28" name="Net-(BoardControl1-Pad11)">
+      <node ref="BoardControl1" pin="11"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="29" name="Net-(BoardControl1-Pad12)">
+      <node ref="BoardControl1" pin="12"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="30" name="Net-(NPN4-Pad2)">
+      <node ref="NPN4" pin="2"/>
+      <node ref="RL3" pin="2"/>
+    </net>
+    <net code="31" name="Net-(CubeConnector1-Pad39)">
+      <node ref="CubeConnector1" pin="39"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="32" name="Net-(CubeConnector1-Pad37)">
+      <node ref="CubeConnector1" pin="37"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="33" name="Net-(CubeConnector1-Pad35)">
+      <node ref="R43" pin="1"/>
+      <node ref="CubeConnector1" pin="35"/>
+    </net>
+    <net code="34" name="Net-(CubeConnector1-Pad33)">
+      <node ref="R44" pin="1"/>
+      <node ref="CubeConnector1" pin="33"/>
+    </net>
+    <net code="35" name="Net-(CubeConnector1-Pad31)">
+      <node ref="CubeConnector1" pin="31"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="36" name="Net-(NPN5-Pad2)">
+      <node ref="RL4" pin="2"/>
+      <node ref="NPN5" pin="2"/>
+    </net>
+    <net code="37" name="Net-(CubeConnector1-Pad28)">
+      <node ref="CubeConnector1" pin="28"/>
+      <node ref="NPN4" pin="3"/>
+    </net>
+    <net code="38" name="Net-(NPN3-Pad2)">
+      <node ref="NPN3" pin="2"/>
+      <node ref="RL2" pin="2"/>
+    </net>
+    <net code="39" name="Net-(NPN2-Pad2)">
+      <node ref="RL1" pin="2"/>
+      <node ref="NPN2" pin="2"/>
+    </net>
+    <net code="40" name="GND">
+      <node ref="U4" pin="8"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="8"/>
+      <node ref="NPN1" pin="1"/>
+      <node ref="BoardControl1" pin="2"/>
+      <node ref="NPN2" pin="1"/>
+      <node ref="NPN3" pin="1"/>
+      <node ref="NPN4" pin="1"/>
+      <node ref="NPN5" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="41" name="Net-(CubeConnector1-Pad40)">
+      <node ref="R50" pin="1"/>
+      <node ref="CubeConnector1" pin="40"/>
+    </net>
+    <net code="42" name="Net-(B4Q4-Pad1)">
+      <node ref="B4Q4" pin="1"/>
+      <node ref="R50" pin="2"/>
+    </net>
+    <net code="43" name="Net-(B4Q0-Pad1)">
+      <node ref="R46" pin="2"/>
+      <node ref="B4Q0" pin="1"/>
+    </net>
+    <net code="44" name="Net-(B4Q1-Pad1)">
+      <node ref="R47" pin="2"/>
+      <node ref="B4Q1" pin="1"/>
+    </net>
+    <net code="45" name="Net-(B4Q3-Pad1)">
+      <node ref="R49" pin="2"/>
+      <node ref="B4Q3" pin="1"/>
+    </net>
+    <net code="46" name="Net-(B4Q2-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="B4Q2" pin="2"/>
+    </net>
+    <net code="47" name="Net-(B4Q0-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="B4Q0" pin="2"/>
+    </net>
+    <net code="48" name="Net-(B4Q1-Pad2)">
+      <node ref="B4Q1" pin="2"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="49" name="Net-(B4Q3-Pad2)">
+      <node ref="R24" pin="2"/>
+      <node ref="B4Q3" pin="2"/>
+    </net>
+    <net code="50" name="Net-(B4Q4-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="B4Q4" pin="2"/>
+    </net>
+    <net code="51" name="Net-(CubeConnector1-Pad32)">
+      <node ref="CubeConnector1" pin="32"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="52" name="Net-(CubeConnector1-Pad34)">
+      <node ref="R47" pin="1"/>
+      <node ref="CubeConnector1" pin="34"/>
+    </net>
+    <net code="53" name="Net-(CubeConnector1-Pad36)">
+      <node ref="CubeConnector1" pin="36"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="54" name="Net-(B4Q2-Pad1)">
+      <node ref="R48" pin="2"/>
+      <node ref="B4Q2" pin="1"/>
+    </net>
+    <net code="55" name="Net-(CubeConnector1-Pad38)">
+      <node ref="R49" pin="1"/>
+      <node ref="CubeConnector1" pin="38"/>
+    </net>
+    <net code="56" name="Net-(BoardControl1-Pad6)">
+      <node ref="U5" pin="3"/>
+      <node ref="BoardControl1" pin="6"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="57" name="Net-(BoardControl1-Pad7)">
+      <node ref="U1" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="BoardControl1" pin="7"/>
+    </net>
+    <net code="58" name="Net-(BoardControl1-Pad4)">
+      <node ref="U5" pin="6"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U3" pin="6"/>
+      <node ref="BoardControl1" pin="4"/>
+    </net>
+    <net code="59" name="Net-(CubeConnector1-Pad29)">
+      <node ref="R36" pin="1"/>
+      <node ref="CubeConnector1" pin="29"/>
+    </net>
+    <net code="60" name="Net-(CubeConnector1-Pad21)">
+      <node ref="R40" pin="1"/>
+      <node ref="CubeConnector1" pin="21"/>
+    </net>
+    <net code="61" name="Net-(CubeConnector1-Pad23)">
+      <node ref="CubeConnector1" pin="23"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="62" name="Net-(CubeConnector1-Pad25)">
+      <node ref="R38" pin="1"/>
+      <node ref="CubeConnector1" pin="25"/>
+    </net>
+    <net code="63" name="Net-(NPN1-Pad2)">
+      <node ref="RL0" pin="2"/>
+      <node ref="NPN1" pin="2"/>
+    </net>
+    <net code="64" name="Net-(BoardControl1-Pad15)">
+      <node ref="RL2" pin="1"/>
+      <node ref="BoardControl1" pin="15"/>
+    </net>
+    <net code="65" name="Net-(BoardControl1-Pad5)">
+      <node ref="U2" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="BoardControl1" pin="5"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="66" name="Net-(BoardControl1-Pad3)">
+      <node ref="U4" pin="7"/>
+      <node ref="BoardControl1" pin="3"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="67" name="Net-(BoardControl1-Pad17)">
+      <node ref="BoardControl1" pin="17"/>
+      <node ref="RL4" pin="1"/>
+    </net>
+    <net code="68" name="Net-(CubeConnector1-Pad5)">
+      <node ref="R28" pin="1"/>
+      <node ref="CubeConnector1" pin="5"/>
+    </net>
+    <net code="69" name="Net-(BoardControl1-Pad13)">
+      <node ref="RL0" pin="1"/>
+      <node ref="BoardControl1" pin="13"/>
+    </net>
+    <net code="70" name="Net-(BoardControl1-Pad14)">
+      <node ref="BoardControl1" pin="14"/>
+      <node ref="RL1" pin="1"/>
+    </net>
+    <net code="71" name="Net-(BoardControl1-Pad16)">
+      <node ref="RL3" pin="1"/>
+      <node ref="BoardControl1" pin="16"/>
+    </net>
+    <net code="72" name="Net-(BoardControl1-Pad18)">
+      <node ref="BoardControl1" pin="18"/>
+    </net>
+    <net code="73" name="+5V">
+      <node ref="U4" pin="16"/>
+      <node ref="B1Q4" pin="3"/>
+      <node ref="B0Q2" pin="3"/>
+      <node ref="B0Q3" pin="3"/>
+      <node ref="B0Q4" pin="3"/>
+      <node ref="B0Q0" pin="3"/>
+      <node ref="U1" pin="16"/>
+      <node ref="B0Q1" pin="3"/>
+      <node ref="B1Q0" pin="3"/>
+      <node ref="B3Q4" pin="3"/>
+      <node ref="U5" pin="16"/>
+      <node ref="B4Q0" pin="3"/>
+      <node ref="B3Q3" pin="3"/>
+      <node ref="B3Q0" pin="3"/>
+      <node ref="B2Q2" pin="3"/>
+      <node ref="B2Q4" pin="3"/>
+      <node ref="B2Q3" pin="3"/>
+      <node ref="B2Q1" pin="3"/>
+      <node ref="B3Q2" pin="3"/>
+      <node ref="B3Q1" pin="3"/>
+      <node ref="B4Q1" pin="3"/>
+      <node ref="B4Q2" pin="3"/>
+      <node ref="B4Q4" pin="3"/>
+      <node ref="BoardControl1" pin="1"/>
+      <node ref="B2Q0" pin="3"/>
+      <node ref="B1Q3" pin="3"/>
+      <node ref="B1Q2" pin="3"/>
+      <node ref="B1Q1" pin="3"/>
+      <node ref="U2" pin="16"/>
+      <node ref="B4Q3" pin="3"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="74" name="Net-(BoardControl1-Pad19)">
+      <node ref="BoardControl1" pin="19"/>
+    </net>
+    <net code="75" name="Net-(BoardControl1-Pad20)">
+      <node ref="BoardControl1" pin="20"/>
+    </net>
+    <net code="76" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="78" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="79" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="80" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="81" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="82" name="Net-(U5-Pad14)">
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="83" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="84" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="85" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="86" name="Net-(B1Q1-Pad1)">
+      <node ref="R32" pin="2"/>
+      <node ref="B1Q1" pin="1"/>
+    </net>
+    <net code="87" name="Net-(B1Q2-Pad2)">
+      <node ref="B1Q2" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="88" name="Net-(B1Q0-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="B1Q0" pin="2"/>
+    </net>
+    <net code="89" name="Net-(B1Q1-Pad2)">
+      <node ref="B1Q1" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="90" name="Net-(B1Q3-Pad2)">
+      <node ref="B1Q3" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="91" name="Net-(B1Q4-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="B1Q4" pin="2"/>
+    </net>
+    <net code="92" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="93" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="94" name="Net-(R10-Pad1)">
+      <node ref="U2" pin="13"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="95" name="Net-(R6-Pad1)">
+      <node ref="U2" pin="9"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="96" name="Net-(R7-Pad1)">
+      <node ref="U2" pin="10"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="97" name="Net-(B2Q3-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="B2Q3" pin="2"/>
+    </net>
+    <net code="98" name="Net-(B1Q3-Pad1)">
+      <node ref="B1Q3" pin="1"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="99" name="Net-(B1Q4-Pad1)">
+      <node ref="R35" pin="2"/>
+      <node ref="B1Q4" pin="1"/>
+    </net>
+    <net code="100" name="Net-(B1Q2-Pad1)">
+      <node ref="B1Q2" pin="1"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="101" name="Net-(B2Q0-Pad1)">
+      <node ref="R36" pin="2"/>
+      <node ref="B2Q0" pin="1"/>
+    </net>
+    <net code="102" name="Net-(B2Q1-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="B2Q1" pin="2"/>
+    </net>
+    <net code="103" name="Net-(B2Q2-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="B2Q2" pin="2"/>
+    </net>
+    <net code="104" name="Net-(B2Q4-Pad2)">
+      <node ref="B2Q4" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="105" name="Net-(B2Q0-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="B2Q0" pin="2"/>
+    </net>
+    <net code="106" name="Net-(R13-Pad1)">
+      <node ref="U3" pin="11"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="107" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="108" name="Net-(R15-Pad1)">
+      <node ref="U3" pin="13"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="109" name="Net-(B1Q0-Pad1)">
+      <node ref="B1Q0" pin="1"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="110" name="Net-(B0Q1-Pad1)">
+      <node ref="R27" pin="2"/>
+      <node ref="B0Q1" pin="1"/>
+    </net>
+    <net code="111" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="112" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="113" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="114" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="12"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="115" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="116" name="Net-(B0Q2-Pad1)">
+      <node ref="B0Q2" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="117" name="Net-(B0Q3-Pad1)">
+      <node ref="B0Q3" pin="1"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="118" name="Net-(B0Q0-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="B0Q0" pin="2"/>
+    </net>
+    <net code="119" name="Net-(B0Q1-Pad2)">
+      <node ref="B0Q1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="120" name="Net-(B0Q2-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="B0Q2" pin="2"/>
+    </net>
+    <net code="121" name="Net-(B0Q3-Pad2)">
+      <node ref="B0Q3" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="122" name="Net-(B0Q4-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="B0Q4" pin="2"/>
+    </net>
+    <net code="123" name="Net-(B0Q4-Pad1)">
+      <node ref="B0Q4" pin="1"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="124" name="Net-(B0Q0-Pad1)">
+      <node ref="B0Q0" pin="1"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="125" name="Net-(B3Q4-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="B3Q4" pin="2"/>
+    </net>
+    <net code="126" name="Net-(B3Q2-Pad2)">
+      <node ref="B3Q2" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="127" name="Net-(B3Q4-Pad1)">
+      <node ref="B3Q4" pin="1"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="128" name="Net-(B3Q2-Pad1)">
+      <node ref="B3Q2" pin="1"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="129" name="Net-(B3Q0-Pad1)">
+      <node ref="B3Q0" pin="1"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="130" name="Net-(R18-Pad1)">
+      <node ref="U4" pin="11"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="131" name="Net-(R19-Pad1)">
+      <node ref="U4" pin="12"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="132" name="Net-(R20-Pad1)">
+      <node ref="U4" pin="13"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="133" name="Net-(B3Q1-Pad1)">
+      <node ref="R42" pin="2"/>
+      <node ref="B3Q1" pin="1"/>
+    </net>
+    <net code="134" name="Net-(B3Q3-Pad1)">
+      <node ref="B3Q3" pin="1"/>
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="135" name="Net-(B3Q0-Pad2)">
+      <node ref="B3Q0" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="136" name="Net-(B3Q1-Pad2)">
+      <node ref="B3Q1" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="137" name="Net-(B3Q3-Pad2)">
+      <node ref="B3Q3" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="138" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="139" name="Net-(R25-Pad1)">
+      <node ref="U5" pin="13"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="140" name="Net-(R21-Pad1)">
+      <node ref="U5" pin="9"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="141" name="Net-(R24-Pad1)">
+      <node ref="U5" pin="12"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="142" name="Net-(R23-Pad1)">
+      <node ref="U5" pin="11"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="143" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="144" name="Net-(B2Q4-Pad1)">
+      <node ref="R40" pin="2"/>
+      <node ref="B2Q4" pin="1"/>
+    </net>
+    <net code="145" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="146" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="147" name="Net-(B2Q1-Pad1)">
+      <node ref="R37" pin="2"/>
+      <node ref="B2Q1" pin="1"/>
+    </net>
+    <net code="148" name="Net-(B2Q2-Pad1)">
+      <node ref="R38" pin="2"/>
+      <node ref="B2Q2" pin="1"/>
+    </net>
+    <net code="149" name="Net-(B2Q3-Pad1)">
+      <node ref="B2Q3" pin="1"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="150" name="Net-(R16-Pad1)">
+      <node ref="U4" pin="9"/>
+      <node ref="R16" pin="1"/>
+    </net>
+  </nets>
+</export>
