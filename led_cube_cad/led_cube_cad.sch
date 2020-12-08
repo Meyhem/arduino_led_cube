@@ -1505,11 +1505,11 @@ Wire Wire Line
 Wire Wire Line
 	1200 12900 2300 12900
 Wire Wire Line
-	2300 13100 1300 13100
+	2300 13100 2050 13100
 Wire Wire Line
-	1300 1750 2300 1750
+	1300 1750 1800 1750
 Wire Wire Line
-	2300 4650 1300 4650
+	2300 4650 1900 4650
 Connection ~ 1300 4650
 Wire Wire Line
 	1300 13100 1300 10300
@@ -1528,7 +1528,7 @@ Connection ~ 1200 7300
 Wire Wire Line
 	1200 7300 1200 10100
 Wire Wire Line
-	2300 7500 1300 7500
+	2300 7500 1850 7500
 Connection ~ 1300 7500
 Wire Wire Line
 	1300 7500 1300 4650
@@ -1538,28 +1538,22 @@ Connection ~ 1200 10100
 Wire Wire Line
 	1200 10100 1200 12900
 Wire Wire Line
-	2300 10300 1300 10300
+	2300 10300 2000 10300
 Connection ~ 1300 10300
 Wire Wire Line
 	1300 10300 1300 7500
 Wire Wire Line
-	2300 1850 1400 1850
-Wire Wire Line
 	1400 1850 1400 4750
 Wire Wire Line
-	1400 13200 2300 13200
-Wire Wire Line
-	2300 10400 1400 10400
+	1400 13200 2150 13200
 Connection ~ 1400 10400
 Wire Wire Line
 	1400 10400 1400 13200
-Wire Wire Line
-	2300 7600 1400 7600
 Connection ~ 1400 7600
 Wire Wire Line
 	1400 7600 1400 10400
 Wire Wire Line
-	2300 4750 1400 4750
+	2300 4750 2000 4750
 Connection ~ 1400 4750
 Wire Wire Line
 	1400 4750 1400 7600
@@ -2322,4 +2316,180 @@ Wire Wire Line
 Wire Wire Line
 	1100 13450 1150 13450
 Connection ~ 1100 12800
+$Comp
+L Connector:Conn_01x01_Female RESET1
+U 1 1 5FD3CE35
+P 2050 2100
+F 0 "RESET1" H 2078 2080 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2078 2035 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2050 2100 50  0001 C CNN
+F 3 "~" H 2050 2100 50  0001 C CNN
+	1    2050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female DATA1
+U 1 1 5FD84EDE
+P 2050 2300
+F 0 "DATA1" H 2078 2280 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2078 2235 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2050 2300 50  0001 C CNN
+F 3 "~" H 2050 2300 50  0001 C CNN
+	1    2050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2100 1850 1850
+Wire Wire Line
+	1400 1850 1850 1850
+Connection ~ 1850 1850
+Wire Wire Line
+	1850 1850 2300 1850
+Wire Wire Line
+	1850 2300 1800 2300
+Wire Wire Line
+	1800 2300 1800 1750
+Connection ~ 1800 1750
+Wire Wire Line
+	1800 1750 2300 1750
+$Comp
+L Connector:Conn_01x01_Female DATA2
+U 1 1 5FE9BF60
+P 2200 5200
+F 0 "DATA2" H 2228 5180 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2228 5135 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2200 5200 50  0001 C CNN
+F 3 "~" H 2200 5200 50  0001 C CNN
+	1    2200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female RESET2
+U 1 1 5FEDD4E6
+P 2200 4950
+F 0 "RESET2" H 2228 4930 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2228 4885 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2200 4950 50  0001 C CNN
+F 3 "~" H 2200 4950 50  0001 C CNN
+	1    2200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female DATA3
+U 1 1 5FF20AB6
+P 2150 8050
+F 0 "DATA3" H 2178 8030 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2178 7985 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2150 8050 50  0001 C CNN
+F 3 "~" H 2150 8050 50  0001 C CNN
+	1    2150 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female RESET3
+U 1 1 5FF20ABC
+P 2150 7800
+F 0 "RESET3" H 2178 7780 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2178 7735 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2150 7800 50  0001 C CNN
+F 3 "~" H 2150 7800 50  0001 C CNN
+	1    2150 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female DATA4
+U 1 1 5FF623A3
+P 2250 10850
+F 0 "DATA4" H 2278 10830 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2278 10785 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2250 10850 50  0001 C CNN
+F 3 "~" H 2250 10850 50  0001 C CNN
+	1    2250 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female RESET4
+U 1 1 5FF623A9
+P 2250 10600
+F 0 "RESET4" H 2278 10580 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2278 10535 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2250 10600 50  0001 C CNN
+F 3 "~" H 2250 10600 50  0001 C CNN
+	1    2250 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female DATA5
+U 1 1 5FFA3CC2
+P 2350 13600
+F 0 "DATA5" H 2378 13580 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2378 13535 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2350 13600 50  0001 C CNN
+F 3 "~" H 2350 13600 50  0001 C CNN
+	1    2350 13600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female RESET5
+U 1 1 5FFA3CC8
+P 2350 13350
+F 0 "RESET5" H 2378 13330 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2378 13285 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2350 13350 50  0001 C CNN
+F 3 "~" H 2350 13350 50  0001 C CNN
+	1    2350 13350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 13350 2150 13200
+Connection ~ 2150 13200
+Wire Wire Line
+	2150 13200 2300 13200
+Wire Wire Line
+	2050 13100 2050 13600
+Wire Wire Line
+	2050 13600 2150 13600
+Connection ~ 2050 13100
+Wire Wire Line
+	2050 13100 1300 13100
+Wire Wire Line
+	2050 10600 2050 10400
+Wire Wire Line
+	1400 10400 2050 10400
+Connection ~ 2050 10400
+Wire Wire Line
+	2050 10400 2300 10400
+Wire Wire Line
+	2050 10850 2000 10850
+Wire Wire Line
+	2000 10850 2000 10300
+Connection ~ 2000 10300
+Wire Wire Line
+	2000 10300 1300 10300
+Wire Wire Line
+	1950 7800 1950 7600
+Wire Wire Line
+	1400 7600 1950 7600
+Connection ~ 1950 7600
+Wire Wire Line
+	1950 7600 2300 7600
+Wire Wire Line
+	1950 8050 1850 8050
+Wire Wire Line
+	1850 8050 1850 7500
+Connection ~ 1850 7500
+Wire Wire Line
+	1850 7500 1300 7500
+Wire Wire Line
+	2000 4950 2000 4750
+Connection ~ 2000 4750
+Wire Wire Line
+	2000 4750 1400 4750
+Wire Wire Line
+	2000 5200 1900 5200
+Wire Wire Line
+	1900 5200 1900 4650
+Connection ~ 1900 4650
+Wire Wire Line
+	1900 4650 1300 4650
 $EndSCHEMATC
