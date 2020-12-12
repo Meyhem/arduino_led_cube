@@ -1,4 +1,4 @@
-18636495497279310
+18638103286744002
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82081,3 +82081,10 @@ to-92 sc-43 sc-43a sot54 PA33 transistor
 0
 3
 3
+custom-footprints
+TestPoint_THTPad_D2mm_Drill0.8mm
+THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm
+test point THT pad
+0
+1
+1
