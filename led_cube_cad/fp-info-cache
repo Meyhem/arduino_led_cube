@@ -1,4 +1,4 @@
-18631672182707964
+18636495497279310
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82047,12 +82047,33 @@ THT DIP DIL PDIP 2.54mm 10.16mm 400mil
 16
 16
 custom-footprints
+PinHeader_1x17_P2.54mm_Vertical-2mm-pads
+Through hole straight pin header, 1x17, 2.54mm pitch, single row
+Through hole pin header THT 1x17 2.54mm single row
+0
+17
+17
+custom-footprints
+PinHeader_2x20_P2.54mm_Vertical-2mm-pads
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
+custom-footprints
 R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal-2mm-pads
 Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
 0
 2
 2
+custom-footprints
+TO-18-3-2mm-pads
+TO-18-3
+TO-18-3
+0
+3
+3
 custom-footprints
 TO-92_Inline-2mm-pads
 TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
