@@ -135,7 +135,8 @@ void clear(Matrix m) {
 }
 
 
-AnimationFunc animations[] = { flash, edges, cross_faces, faces, random_dots, icycles, ball, rotating_plane, lazers, bar_graph, chess3d, pillar, crosses };
+AnimationFunc animations[] = { 
+  flash, edges, cross_faces, faces, random_dots, icycles, ball, rotating_plane, lazers, bar_graph, chess3d, pillar, crosses };
 
 AnimationFunc getRandomAnimationFunc() {
   int i = random(SIZE(animations));
