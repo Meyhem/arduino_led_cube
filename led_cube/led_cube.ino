@@ -6,18 +6,18 @@
 #define DIM 5
 
 /* PINS */
-#define RESET 22
-#define DATA 24
+#define RESET 32
+#define DATA 30
 
-#define WD0 23
-#define WD1 25
-#define WD2 27
-#define WD3 29
-#define WD4 31
+#define WD0 34
+#define WD1 36
+#define WD2 38
+#define WD3 40
+#define WD4 42
 
-#define COL_ADDR0 34
-#define COL_ADDR1 36
-#define COL_ADDR2 38
+#define COL_ADDR0 28
+#define COL_ADDR1 26
+#define COL_ADDR2 24
 
 #define LAY0 44
 #define LAY1 46
@@ -54,6 +54,7 @@ void set(int pin, int val) {
 
 void setup() {
   Serial.begin(9600);
+  randomSeed(analogRead(0));
   int i = 0;
   for (i = 0; i < SIZE(out_pins); i++) {
     pinMode(out_pins[i], OUTPUT);
@@ -133,11 +134,11 @@ void clear(Matrix m) {
   }
 }
 
-AnimationFunc animations[] = { edges/*, cross_faces, faces, random_dots, icycles, ball, rotating_plane, lazers*/};
+
+AnimationFunc animations[] = { flash, edges, cross_faces, faces, random_dots, icycles, ball, rotating_plane, lazers, bar_graph, chess3d, pillar, crosses };
 
 AnimationFunc getRandomAnimationFunc() {
-  const int nfunc = SIZE(animations);
-  int i = random(nfunc);
+  int i = random(SIZE(animations));
   return animations[i];
 }
 
@@ -163,6 +164,100 @@ void tick(AnimationEngine* e, uint32_t delta, Matrix m) {
   
   e->animationIterations = newIterations;
   e->state++;  
+}
+
+int crosses(Matrix m, int state) {
+  int scaledState = state / eng.speed;
+  
+  for (int x = 0; x < DIM; x++) {
+    for (int y = 0; y < DIM; y++) {
+      for (int z = 0; z < DIM; z++) {
+        m[x][y][z] = (x == z || x == (4 - z)) && (y == 0 || y == 4) && scaledState % 2 == 0;
+      }
+    }
+  }
+
+  return scaledState;
+}
+
+int pillar(Matrix m, int state) {
+  int scaledState = state / eng.speed / 5;
+  int iteration = scaledState % 10;
+  int pillar = (scaledState / 10) % 3 + 1;
+  float mid = DIM / 2;
+
+  for (int x = 0; x < DIM; x++) {
+    for (int y = 0; y < DIM; y++) {
+      for (int z = 0; z < DIM; z++) {
+        m[x][y][z] = sqrt((mid - x)*(mid - x) + (mid - y)*(mid - y)) < pillar && z < pyramid_period_func(iteration, 5);
+      }
+    }
+  }
+
+  return scaledState / 10;
+}
+
+int chess3d(Matrix m, int state) {
+  int scaledState = state / eng.speed / 10;
+  int i = 0;
+  for (int x = 0; x < DIM; x++) {
+    for (int y = 0; y < DIM; y++) {
+      for (int z = 0; z < DIM; z++) {
+        i++;
+        m[x][y][z] = (i + scaledState) % 2;
+      }
+    }
+  }
+ 
+  return scaledState;
+}
+
+int8_t bars[DIM][DIM];
+bool randomizedBarsThisRound = false;
+int bar_graph(Matrix m, int state) {
+  const int nstates = 9;
+  int scaledState = state / 3 / eng.speed;
+
+  int iteration = scaledState % nstates;
+  if (iteration == 0 && !randomizedBarsThisRound) {
+    randomizedBarsThisRound = true;
+    for (int x = 0; x < DIM; x++) {
+      for (int y = 0; y < DIM; y++) {
+        bars[x][y] = max(random() % (DIM - 1), 0) - 2;
+      } 
+    }    
+  } 
+  if (iteration != 0) {
+    randomizedBarsThisRound = false;
+  }
+    
+  for (int x = 0; x < DIM; x++) {
+    for (int y = 0; y < DIM; y++) {
+      for (int z = 0; z < DIM; z++) {
+        if (bars[x][y] >= 0) {
+          m[x][y][z] = (bars[x][y] + pyramid_period_func(iteration, 4)) > z;
+        } else {
+          m[x][y][z] = 0;
+        }
+        
+      }
+    }
+  }
+
+  return state / 3 / eng.speed / nstates;
+}
+
+int flash(Matrix m, int state) {
+  int scaledState = state / 100;
+  
+  for (int x = 0; x < DIM; x++) {
+    for (int y = 0; y < DIM; y++) {
+      for (int z = 0; z < DIM; z++) {
+        m[x][y][z] = scaledState % 2 == 0;
+      }
+    }
+  }
+  return scaledState % 2;
 }
 
 int random_dots(Matrix m, int state) {
@@ -274,13 +369,14 @@ int edges(Matrix m, int state) {
 
 int faces(Matrix m, int state) {
   const int nstates = 27;
-  int speedFactor = (6 - eng.speed);
+  int speedFactor = 
+  (6 - eng.speed);
   int scaledState = (state / speedFactor) % nstates;
       
   for (int x = 0; x < DIM; x++) {
     for (int y = 0; y < DIM; y++) {
       for (int z = 0; z < DIM; z++) {
-        int target;
+        int target = x;
         if (scaledState < 9) {
           target = z;
         } else if (scaledState < 18) {
@@ -316,8 +412,7 @@ int cross_faces(Matrix m, int state) {
       }
     }
   }
-  
-  
+
   return state / speedFactor / nstates;
 }
 
