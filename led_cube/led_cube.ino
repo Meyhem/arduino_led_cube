@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include "pins_arduino.h"
 
 #define SIZE(arr) (sizeof(arr) / sizeof((arr)[0]))
 #define ISSET(v, n) ((v >> n) & 1)
@@ -6,24 +7,24 @@
 #define DIM 5
 
 /* PINS */
-#define RESET 32
-#define DATA 30
+#define COL_ADDR0 4
+#define COL_ADDR1 3
+#define COL_ADDR2 2
 
-#define WD0 34
-#define WD1 36
-#define WD2 38
-#define WD3 40
-#define WD4 42
+#define DATA 5
+#define RESET 6
 
-#define COL_ADDR0 28
-#define COL_ADDR1 26
-#define COL_ADDR2 24
+#define WD0 7
+#define WD1 8
+#define WD2 9
+#define WD3 10
+#define WD4 11
 
-#define LAY0 44
-#define LAY1 46
-#define LAY2 48
-#define LAY3 50
-#define LAY4 52
+#define LAY0 12
+#define LAY1 17
+#define LAY2 16
+#define LAY3 15
+#define LAY4 14
 
 typedef uint8_t Matrix[DIM][DIM][DIM];
 typedef bool (*AnimationFunc)(Matrix m, int state);
@@ -73,8 +74,7 @@ void setup() {
   set(LAY2, 0);
   set(LAY3, 0);
   set(LAY4, 0);
-    
-  pinMode(LED_BUILTIN, OUTPUT);
+
   int v = 0;
   for (int x = 0; x < DIM; x++) {
     for (int y = 0; y < DIM; y++) {
@@ -132,11 +132,11 @@ void clear(Matrix m) {
       }
     }
   }
+  
 }
 
 
-AnimationFunc animations[] = { 
-  flash, edges, cross_faces, faces, random_dots, icycles, ball, rotating_plane, lazers, bar_graph, chess3d, pillar, crosses };
+AnimationFunc animations[] = { flash, edges, cross_faces, faces, random_dots, icycles, ball, rotating_plane, lazers, bar_graph, chess3d, pillar, crosses };
 
 AnimationFunc getRandomAnimationFunc() {
   int i = random(SIZE(animations));
@@ -446,6 +446,7 @@ float pyramid_period_func(float x, float slope) {
 }
 
 void loop() {
+
   uint32_t now = millis();
   uint32_t delta = now - currentTime;
   currentTime = now;
